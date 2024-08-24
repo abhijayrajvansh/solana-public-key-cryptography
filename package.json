@@ -1,0 +1,19 @@
+{
+  "name": "solana-public-key-cryptography",
+  "version": "1.0.0",
+  "description": "basic demonstration of how transactions are signed and verified on solana blockchain",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "tsx --no-deprecation src/index.ts"
+  },
+  "author": "@abhijayrajvansh",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.18.0"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "tweetnacl": "^1.0.3"
+  }
+}
