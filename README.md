@@ -1,4 +1,4 @@
-# Ttile goes here ;)
+# Solana Public Key Cryptography
 
 Author: [Abhijay Rajvansh](https://abhijayrajvansh.com)
 
