@@ -4,7 +4,6 @@
   "description": "basic demonstration of how transactions are signed and verified on solana blockchain",
   "main": "index.ts",
   "scripts": {
-    "dev": "tsx src/index.ts",
     "start": "tsx --no-deprecation src/crypto.ts"
   },
   "author": "@abhijayrajvansh",
@@ -14,6 +13,7 @@
   },
   "dependencies": {
     "@solana/web3.js": "^1.95.3",
+    "bs58": "^6.0.0",
     "tweetnacl": "^1.0.3"
   }
 }

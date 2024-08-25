@@ -4,6 +4,30 @@ Author: [Abhijay Rajvansh](https://abhijayrajvansh.com)
 
 101 basic demonstration of how private-public key-pairs are generated, transactions are signed & verified using @solana/web3.js
 
+### Base58 format
+
+```
+{ 
+  publicKeyEncoded: '4YkNM9ZVTtd4AjVAiuHuKLaaRAdjfHe7jXrFoW9XYvs6' 
+}
+{
+  privateKeyEncoded: '3xewzE3Y9454fHuSEdhcnrjwPRcvuLPSZkHPu3M3w3fMzhWtXXc1jmhrvt8Vk26yrucLMjALWSt2L5G3a5WUrLhJ'
+}
+{ 
+  transactionEncoded: 'N8HrXqx6shTzHhjiN6uyfFKuHH' 
+}
+{
+  signatureEncoded: '67joAAKXjRvimfniTtaUEZjbwBrrWg7M2dqNJre3kALqqnpjK7WujdWEiZGd45ATQQTYXYyTXJAT3ncz1Brn8NvA'
+}
+
+> verifying signature...
+
+transaction: accepted!
+
+```
+
+### Uint8Array format
+
 ```
 private key: Uint8Array(64) [
   228,  86, 137,  50,  52, 246,  71, 170,  48, 174, 220,  25,
@@ -19,13 +43,13 @@ publicKey: Uint8Array(32) [
    24, 205, 46,  65,   2, 223, 131,  64,
   123, 205, 29, 156,  91,  77, 241,  90
 ]
-encoded transaction: Uint8Array(19) [
+transaction: Uint8Array(19) [
   115, 101, 110, 100,  32,  51,
    32, 115, 111, 108,  32,  45,
    62,  32, 116, 114, 117, 109,
   112
 ]
-encoded signature: Uint8Array(64) [
+signature: Uint8Array(64) [
    41, 235,  42,  91, 209,  46,  33,  24,  57, 115,  34,
   241, 216, 239, 152, 223, 237, 214, 224, 117, 222,  45,
   204, 122, 218, 241, 113,  72, 175, 124,  31, 132,  35,
