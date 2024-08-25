@@ -1,4 +1,4 @@
-const solWalletBase58 = "HLh5tKmpLEH3Lai24zekyDAvWzqbpcGkYVGJUAcghtTe";
+const sample_solana_wallet = "HLh5tKmpLEH3Lai24zekyDAvWzqbpcGkYVGJUAcghtTe";
 
 // base58 to uint8array using native TextEncoder()
 // this has only 0 - 127 ascii values
